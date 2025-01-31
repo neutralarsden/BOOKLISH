@@ -7,22 +7,30 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body bgcolor= 'F0F0F0' >
+    <nav>
+        <img src="" class="logo">
+           <div>
+            <a href="#">
+                <button>
+                    Home
+                </button>
+            </a>
+   <a href="#available-books">
+       <button> Featured</button>
+   </a>
+   <button> My profile </button>
+   <button class="language-btn">
+       English
+   </button>
+   <a href="#reviews">
+       <button>
+           Reviews
+       </button>
+   </a>
+   
+</div> 
+       </nav>
     <div class="header">
-        <nav>
-         <img src="" class="logo">
-            <div>
-        <button>
-            Home
-        </button>
-    <button> Featured</button>
-    <button> My profile </button>
-    <button class="language-btn">
-        English
-    </button>
-<button>
-    Basket
-</button></div> 
-        </nav>
         <div class="headercontent">
             <h1 font color="black"> Readers are leaders </h1>
             <h3 font color="black"> Read anywhere , Read anytime</h3>
@@ -113,7 +121,7 @@
         </form>
     </div>
 
-    <div class="cat-list">
+    <div id="available-books" class="cat-list">
         <p class="cat-list-head">Available Books</p>
         <div class="cat-container">
             <span class="cat-head">Action</span>
@@ -299,7 +307,7 @@
         <button class="review-submit-btn" type="submit">Submit</button>
     </form>
 
-    <div class="reviews">
+    <div class="reviews" id="reviews">
         <h3 class="reviews-heading">Popular Reviews</h3>
         <div class="review-container">
             <div class="review-subcontainer">
